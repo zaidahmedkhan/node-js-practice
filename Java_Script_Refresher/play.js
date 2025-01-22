@@ -19,3 +19,26 @@ console.log(addOne(5));
 console.log(add(1, 2, 3));
 console.log(addRandom());
 console.log(summarizeUser(fullName, age, hasHobbies));
+
+
+
+
+const person = {
+    name: "zaid",
+    age: 20,
+    greet() {
+        console.log("Hello, I am " + this.name);
+    }
+
+}
+
+
+person.greet();
+
+
+
+const hobbies = ["sports", "cooking", 20, true];
+
+for (let hobby of hobbies) {
+    console.log(hobby);
+}
