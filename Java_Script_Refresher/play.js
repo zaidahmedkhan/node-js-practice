@@ -38,7 +38,22 @@ person.greet();
 
 
 const hobbies = ["sports", "cooking", 20, true];
+const copiedArray = [...hobbies];
+console.log(copiedArray);
+console.log("done");
+
 
 for (let hobby of hobbies) {
     console.log(hobby);
 }
+
+
+
+
+const toArray = (...arg) => {
+
+    return arg;
+}
+
+
+console.log(toArray(1, 2, 3, 4, 5, 6, "zaid", "ahmed"));
